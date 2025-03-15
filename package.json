@@ -1,0 +1,23 @@
+{
+  "name": "spotdev",
+  "version": "1.0.0",
+  "description": "This is the backend for the spotDev project.",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "start": "node src/app.js",
+    "build": "tsc"
+  },
+  "author": "spotDev",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "express": "^4.21.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
